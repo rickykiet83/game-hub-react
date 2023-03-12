@@ -1,7 +1,6 @@
+import { AxiosRequestConfig, CanceledError } from 'axios';
 import { useEffect, useState } from 'react';
 
-import { AxiosRequestConfig } from './../../node_modules/axios/index.d';
-import { CanceledError } from 'axios';
 import apiClient from '../services/api-client';
 
 interface FetchResponse<T> {
