@@ -14,12 +14,8 @@ function App() {
 				<NavBar />
 			</GridItem>
 			<Show above='lg'></Show>
-			<GridItem area='aside' bg='gold'>
-				Asid
-			</GridItem>
-			<GridItem area='main' bg={'dodgerblue'}>
-				Main
-			</GridItem>
+			<GridItem area='aside'>Asid</GridItem>
+			<GridItem area='main'>Main</GridItem>
 		</Grid>
 	);
 }
