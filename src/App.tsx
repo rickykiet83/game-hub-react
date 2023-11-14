@@ -5,7 +5,7 @@ import { GameHeading } from './components/GameHeading';
 import { Genre } from './hooks/useGenres';
 import GenreList from './components/GenreList';
 import NavBar from './components/NavBar';
-import { Platform } from './hooks/useGames';
+import { Platform } from './hooks/usePlatforms';
 import PlatformSelector from './components/PlatformSelector';
 import { SortSelector } from './components/SortSelector';
 import { useState } from 'react';
