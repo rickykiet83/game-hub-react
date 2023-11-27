@@ -20,7 +20,7 @@ const GameGrid = () => {
 	return (
 		<InfiniteScroll
 			dataLength={fetchedGamesCount}
-			hasMore={hasNextPage}
+			hasMore={hasNextPage as boolean}
 			next={() => fetchNextPage()}
 			loader={<Spinner />}
 		>
